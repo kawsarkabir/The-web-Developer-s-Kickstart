@@ -3,9 +3,152 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="A comprehensive guide to HTML with examples for learning web development."
+    />
+    <title>HTML Comprehensive Guide</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <!-- Headings -->
+    <header>
+      <h1>Welcome to HTML Crash Course</h1>
+      <h2>Subheading (H2)</h2>
+      <h3>Subheading (H3)</h3>
+      <h4>Subheading (H4)</h4>
+      <h5>Subheading (H5)</h5>
+      <h6>Subheading (H6)</h6>
+    </header>
+
+    <!-- Paragraphs and Text -->
+    <section>
+      <p>This is a paragraph with plain text.</p>
+      <p>
+        <strong>Bold text example</strong>, <em>italicized text example</em>,
+        and <u>underlined text</u>.
+      </p>
+      <p>This is a <mark>highlighted</mark> word in a sentence.</p>
+    </section>
+
+    <!-- Links -->
+    <section>
+      <a href="https://kawsarkabir.com" target="_blank">Visit Portfolio</a>
+      <a href="#top" title="Go to the top of the page">Go to Top</a>
+    </section>
+
+    <!-- Buttons -->
+    <section>
+      <button onclick="alert('Button clicked!')">Click Me</button>
+    </section>
+
+    <!-- Images -->
+    <section>
+      <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+    </section>
+
+    <!-- Lists -->
+    <section>
+      <h3>Unordered List</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+
+      <h3>Ordered List</h3>
+      <ol>
+        <li><a href="#">First Step</a></li>
+        <li><a href="#">Second Step</a></li>
+        <li><a href="#">Final Step</a></li>
+      </ol>
+    </section>
+
+    <!-- Tables -->
+    <section>
+      <h3>Sample Table</h3>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Profession</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>30</td>
+            <td>Developer</td>
+          </tr>
+          <tr>
+            <td>Jane Smith</td>
+            <td>25</td>
+            <td>Designer</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Forms -->
+    <section>
+      <h3>Form Example</h3>
+      <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+        <br /><br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <br /><br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <br /><br />
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          placeholder="Your message here"
+        ></textarea>
+        <br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Multimedia -->
+    <section>
+      <h3>Video Example</h3>
+      <video controls width="300">
+        <source src="sample-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <h3>Audio Example</h3>
+      <audio controls>
+        <source src="sample-audio.mp3" type="audio/mp3" />
+        Your browser does not support the audio tag.
+      </audio>
+    </section>
+
+    <!-- Inline CSS Styling -->
+    <section>
+      <h2 style="text-align: center; color: blueviolet">Enamul Shikder</h2>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 HTML Crash Course. All rights reserved.</p>
+    </footer>
   </body>
 </html>
